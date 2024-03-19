@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url('space9.jpg'); */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .container2:hover{
+    box-shadow: 8px 8px 10px rgba(194,195,196,0.893);
+
+  }
+
+  
+  .container2 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container2 label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .container2 input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Added transition */
+  }
+  .textfield1:hover{
+    box-shadow:8px 8px 10px rgba(194,195,196,0.893) ;
+    background-color: whitesmoke;
+  }
+  
+  .container2 input:hover,
+  .container2 input:focus {
+    border-color: #007bff; /* Color change on hover and focus */
+    background-color: whitesmoke;
+    box-shadow: 8px 8px 10px rgba(194,195,196,0.893);
+  }
+  
+  .container2 input::placeholder {
+    color: #a9a9a9; /* Placeholder color */
+  }
+  
+  .container2 button {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 7px;
+  }
+  
+  .container2 button:hover {
+  
+    border-radius: 15px;
+  }
